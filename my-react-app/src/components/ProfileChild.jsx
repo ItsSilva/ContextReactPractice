@@ -6,9 +6,9 @@ const ProfileChild = () => {
   return (
     <header>
       {name.length === 0 ? (
-        <p>I'm the ProfileChild of the Profile of Anonymous.</p>
+        <p>I'm the ProfileChild of the Profile of <b>Anonymous</b>.</p>
       ) : (
-        <p>I'm the ProfileChild of the Profile of {name}.</p>
+        <p>I'm the ProfileChild of the Profile of <b>{name}</b>.</p>
       )}
     </header>
   );

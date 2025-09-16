@@ -6,9 +6,9 @@ const ProfileGrandChild = () => {
   return (
     <header>
       {name.length === 0 ? (
-        <p>I'm the ProfileGrandChild of the Profile, that means I'm the child of ProfileChild of Anonymous.</p>
+        <p>I'm the ProfileGrandChild of the Profile, that means I'm the child of ProfileChild of <b>Anonymous</b>.</p>
       ) : (
-        <p>I'm the ProfileGrandChild of the Profile, that means I'm the child of ProfileChild of {name}.</p>
+        <p>I'm the ProfileGrandChild of the Profile, that means I'm the child of ProfileChild of <b>{name}</b>.</p>
       )}
     </header>
   );

@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer>
       {name.length === 0 ? (
-        <h1>You're on the Footer, Anonymous.</h1>
+        <h1>You're on the Footer, <b>Anonymous</b>.</h1>
       ) : (
-        <h1>You're on the Footer, {name}.</h1>
+        <h1>You're on the Footer, <b>{name}</b>.</h1>
       )}
     </footer>
   );

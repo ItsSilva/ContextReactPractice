@@ -6,9 +6,9 @@ const Profile = () => {
   return (
     <header>
       {name.length === 0 ? (
-        <p>Profile of Anonymous.</p>
+        <p>Profile of <b>Anonymous</b>.</p>
       ) : (
-        <p>Profile of {name}.</p>
+        <p>Profile of <b>{name}</b>.</p>
       )}
     </header>
   );
